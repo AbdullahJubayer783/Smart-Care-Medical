@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
+CSRF_TRUSTED_ORIGINS = ['https://smart-care-1nw7.onrender.com','https://*.127.0.0.1']
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-a_h5=nf@4&!4ovq2uq#0acte-=x35^v^83bw@b3iljuko&99i7'
 
